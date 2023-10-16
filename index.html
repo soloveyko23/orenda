@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/libs/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/libs/swiper.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="s-wrapper">
+    <header class="header">
+      <div class="container-xxl">
+       <div class="header__content">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-3 col-md-6 col-5">
+            <div class="header__phone s-phone-block">
+              <i class="header__phone-icon s-phone-block__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                  <path d="M30.8322 23.3802V27.8802C30.8339 28.298 30.7483 28.7115 30.5809 29.0942C30.4136 29.477 30.1681 29.8206 29.8603 30.103C29.5525 30.3854 29.189 30.6004 28.7933 30.7343C28.3976 30.8681 27.9782 30.9178 27.5622 30.8802C22.9464 30.3787 18.5127 28.8014 14.6172 26.2752C10.9929 23.9722 7.92018 20.8995 5.61718 17.2752C3.08214 13.362 1.50454 8.9067 1.01218 4.27021C0.974691 3.85541 1.02399 3.43735 1.15693 3.04264C1.28986 2.64794 1.50353 2.28524 1.78432 1.97764C2.06512 1.67004 2.40688 1.42427 2.78786 1.25599C3.16884 1.08771 3.58069 1.0006 3.99718 1.00021H8.49718C9.22513 0.993042 9.93086 1.25082 10.4828 1.72551C11.0348 2.20019 11.3953 2.85938 11.4972 3.58021C11.6871 5.02031 12.0394 6.4343 12.5472 7.79521C12.749 8.33209 12.7927 8.91558 12.673 9.47653C12.5534 10.0375 12.2755 10.5524 11.8722 10.9602L9.96718 12.8652C12.1025 16.6205 15.2119 19.7299 18.9672 21.8652L20.8722 19.9602C21.28 19.5569 21.7949 19.279 22.3559 19.1593C22.9168 19.0397 23.5003 19.0834 24.0372 19.2852C25.3981 19.793 26.8121 20.1453 28.2522 20.3352C28.9808 20.438 29.6463 20.805 30.122 21.3664C30.5977 21.9279 30.8504 22.6446 30.8322 23.3802Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </i>
+              <div class="header__phone-desc s-phone-block__desc">
+                <a href="tel:+380971882555" class="s-phone-tel s-text-desc-24">(093) 123-45-67</a>
+                <button class="s-phone-book s-text-desc-16">Замовити дзвінок</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col order-lg-0 order-md-2">
+            <div class="header__menu menu">
+              
+              <nav class="menu__body">
+                <span class="menu-title">
+                  Меню
+                </span>
+                <ul>
+                  <li>
+                    <a href="#">
+                      Варіанти офісів
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Характеристики
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Про нас
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Контакти
+                    </a>
+                  </li>
+                </ul>
+                <div class="header__phone--mob s-phone-block">
+                  <i class="header__phone-icon s-phone-block__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path d="M30.8322 23.3802V27.8802C30.8339 28.298 30.7483 28.7115 30.5809 29.0942C30.4136 29.477 30.1681 29.8206 29.8603 30.103C29.5525 30.3854 29.189 30.6004 28.7933 30.7343C28.3976 30.8681 27.9782 30.9178 27.5622 30.8802C22.9464 30.3787 18.5127 28.8014 14.6172 26.2752C10.9929 23.9722 7.92018 20.8995 5.61718 17.2752C3.08214 13.362 1.50454 8.9067 1.01218 4.27021C0.974691 3.85541 1.02399 3.43735 1.15693 3.04264C1.28986 2.64794 1.50353 2.28524 1.78432 1.97764C2.06512 1.67004 2.40688 1.42427 2.78786 1.25599C3.16884 1.08771 3.58069 1.0006 3.99718 1.00021H8.49718C9.22513 0.993042 9.93086 1.25082 10.4828 1.72551C11.0348 2.20019 11.3953 2.85938 11.4972 3.58021C11.6871 5.02031 12.0394 6.4343 12.5472 7.79521C12.749 8.33209 12.7927 8.91558 12.673 9.47653C12.5534 10.0375 12.2755 10.5524 11.8722 10.9602L9.96718 12.8652C12.1025 16.6205 15.2119 19.7299 18.9672 21.8652L20.8722 19.9602C21.28 19.5569 21.7949 19.279 22.3559 19.1593C22.9168 19.0397 23.5003 19.0834 24.0372 19.2852C25.3981 19.793 26.8121 20.1453 28.2522 20.3352C28.9808 20.438 29.6463 20.805 30.122 21.3664C30.5977 21.9279 30.8504 22.6446 30.8322 23.3802Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </i>
+                  <div class="header__phone-desc s-phone-block__desc">
+                    <a href="tel:+380971882555" class="s-phone-tel s-text-desc-24">(093) 123-45-67</a>
+                    <button class="s-phone-book s-text-desc-16">Замовити дзвінок</button>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="header__actions d-flex justify-content-end align-items-sm-center flex-wrap">
+              <a href="#" class="header__order s-button s-button--m s-button-white" data-bs-toggle="modal" data-bs-target="#orderPopup">Напишіть нам</a>
+              <a href="#" class="header__lang">Рус</a>
+              <button type="button" class="menu__icon icon-menu"><span>menu</span></button>
+            </div>
+            
+          </div>
+        </div>
+       </div>
+      </div>
+    </header>
+    <main class="s-page">
+      <section class="hero" id="hero">
+        <div class="hero__image">
+          <img src="images/hero/hero.webp" width="1440" height="656" alt="01">
+        </div>
+     
+          <div class="hero__content">
+            <div class="container-xxl">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12 offset-md-1 hero__info info-block">
+                    <span class="h2 info-block__title">Офісна будівля у самому центрі міста</span>
+                    <span class="h2 info-block__size">36 м2</span>
+                    <div class="info-block__desc">
+                      <p>
+                        Центр, Новозаводський, Чернігів
+                      </p>
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+
+                    <a href="#" class="info-block__button s-button s-button--m s-button-blue" data-bs-toggle="modal" data-bs-target="#orderPopup">Напишіть нам</a>
+
+                    <div class="info-block--mob">
+                      <a href="#" class="info-block-button-phone s-button s-button--m s-button-blue">(093) 123-45-67</a>
+                      <a href="#" class="info-block-button-message " data-bs-toggle="modal" data-bs-target="#orderPopup">Залишити повідомлення</a>
+                    </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+      </section>
+      <!-- /#hero.hero -->
+      <section class="advances mt-12" id="advances">
+        <div class="container-xxl">
+          <div class="advances__content">
+            <span class="h2 s-title-section s-text-grey s-text-center">
+              Наші переваги
+            </span>
+         
+              <div class="row">
+                <div class="col-md-3 col-sm-6 col-12 mb-md-0 mb-sm-4 mb-2">
+                  <div class="advances__item item">
+                    <div class="item__body">
+                      <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                          <path d="M13.3333 31.6667C14.2174 31.6667 15.0652 31.3155 15.6904 30.6904C16.3155 30.0652 16.6667 29.2174 16.6667 28.3333C16.6667 27.4493 16.3155 26.6014 15.6904 25.9763C15.0652 25.3512 14.2174 25 13.3333 25C12.4493 25 11.6014 25.3512 10.9763 25.9763C10.3512 26.6014 10 27.4493 10 28.3333C10 29.2174 10.3512 30.0652 10.9763 30.6904C11.6014 31.3155 12.4493 31.6667 13.3333 31.6667V31.6667ZM30 31.6667C30.8841 31.6667 31.7319 31.3155 32.357 30.6904C32.9821 30.0652 33.3333 29.2174 33.3333 28.3333C33.3333 27.4493 32.9821 26.6014 32.357 25.9763C31.7319 25.3512 30.8841 25 30 25C29.1159 25 28.2681 25.3512 27.643 25.9763C27.0179 26.6014 26.6667 27.4493 26.6667 28.3333C26.6667 29.2174 27.0179 30.0652 27.643 30.6904C28.2681 31.3155 29.1159 31.6667 30 31.6667V31.6667Z" stroke="#363636" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M16.7474 28.3333H24.9974V11C24.9974 10.7348 24.892 10.4804 24.7045 10.2929C24.517 10.1054 24.2626 10 23.9974 10H1.66406M9.41406 28.3333H5.9974C5.86607 28.3333 5.73604 28.3075 5.61471 28.2572C5.49339 28.207 5.38315 28.1333 5.29029 28.0404C5.19743 27.9476 5.12377 27.8373 5.07352 27.716C5.02326 27.5947 4.9974 27.4647 4.9974 27.3333V19.1667" stroke="#363636" stroke-linecap="round"/>
+                          <path d="M3.32812 15H9.99479" stroke="#363636" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M25 15H34.35C34.5433 15 34.7324 15.0561 34.8945 15.1614C35.0566 15.2667 35.1847 15.4167 35.2633 15.5933L38.2467 22.3067C38.3035 22.4341 38.333 22.5721 38.3333 22.7117V27.3333C38.3333 27.4647 38.3075 27.5947 38.2572 27.716C38.207 27.8373 38.1333 27.9476 38.0404 28.0404C37.9476 28.1333 37.8373 28.207 37.716 28.2572C37.5947 28.3075 37.4647 28.3333 37.3333 28.3333H34.1667M25 28.3333H26.6667" stroke="#363636" stroke-linecap="round"/>
+                        </svg>
+                      </i>
+                      <div class="s-text-desc-18 s-text-center">
+                        <p>
+                          Ми співпрацюємо з провідними транспортними компаніями
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-md-0 mb-sm-4 mb-2">
+                  <div class="advances__item item">
+                    <div class="item__body">
+                      <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                          <path d="M33.75 7.91699H6.25C4.86929 7.91699 3.75 9.03628 3.75 10.417V29.5837C3.75 30.9644 4.86929 32.0837 6.25 32.0837H33.75C35.1307 32.0837 36.25 30.9644 36.25 29.5837V10.417C36.25 9.03628 35.1307 7.91699 33.75 7.91699Z" stroke="#363636" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M3.75 13.75H36.25M27.9167 28.75V27.0833M30.4167 28.75V27.0833M32.9167 28.75V27.0833" stroke="#363636" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </i>
+                      <div class="s-text-desc-18 s-text-center">
+                        <p>
+                          Доступна оплата післяплатою
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-md-0 mb-sm-4 mb-2">
+                  <div class="advances__item item">
+                    <div class="item__body">
+                      <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                          <path d="M25 35.0004H15V21.0004C15 20.7351 15.1054 20.4808 15.2929 20.2932C15.4804 20.1057 15.7348 20.0004 16 20.0004H24C24.2652 20.0004 24.5196 20.1057 24.7071 20.2932C24.8946 20.4808 25 20.7351 25 21.0004V35.0004V35.0004ZM34 35.0004H25V30.167C25 29.9018 25.1054 29.6474 25.2929 29.4599C25.4804 29.2724 25.7348 29.167 26 29.167H34C34.2652 29.167 34.5196 29.2724 34.7071 29.4599C34.8946 29.6474 35 29.9018 35 30.167V34.0003C35 34.2656 34.8946 34.5199 34.7071 34.7075C34.5196 34.895 34.2652 35.0004 34 35.0004V35.0004ZM15 35.0004V26.8337C15 26.5685 14.8946 26.3141 14.7071 26.1266C14.5196 25.939 14.2652 25.8337 14 25.8337H6C5.73478 25.8337 5.48043 25.939 5.29289 26.1266C5.10536 26.3141 5 26.5685 5 26.8337V34.0003C5 34.2656 5.10536 34.5199 5.29289 34.7075C5.48043 34.895 5.73478 35.0004 6 35.0004H15V35.0004ZM18.01 8.52202L19.525 5.31035C19.5659 5.21854 19.6325 5.14055 19.7168 5.08582C19.8011 5.03108 19.8995 5.00195 20 5.00195C20.1005 5.00195 20.1989 5.03108 20.2832 5.08582C20.3675 5.14055 20.4341 5.21854 20.475 5.31035L21.9917 8.52202L25.3783 9.04035C25.8133 9.10702 25.9867 9.66702 25.6717 9.98702L23.2217 12.487L23.8 16.017C23.8733 16.4704 23.42 16.817 23.03 16.602L20 14.9354L16.97 16.602C16.5817 16.8154 16.1267 16.4704 16.2 16.017L16.7783 12.487L14.3283 9.98702C14.0117 9.66702 14.1867 9.10702 14.62 9.04035L18.01 8.52369V8.52202Z" stroke="#363636" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </i>
+                      <div class="s-text-desc-18 s-text-center">
+                        <p>
+                          У нас бездоганна репутація
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-md-0 mb-sm-4 mb-2">
+                  <div class="advances__item item">
+                    <div class="item__body">
+                      <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                          <path d="M28.8906 19.5777C28.9965 19.7048 29.0504 19.8671 29.0417 20.0322C29.033 20.1973 28.9623 20.3531 28.8438 20.4683C28.7266 20.5697 28.5768 20.6252 28.4219 20.6246C28.245 20.6212 28.0765 20.5482 27.9531 20.4215C27.6614 20.0919 27.303 19.828 26.9016 19.6473C26.5003 19.4666 26.0651 19.3732 25.625 19.3732C25.1849 19.3732 24.7497 19.4666 24.3484 19.6473C23.947 19.828 23.5886 20.0919 23.2969 20.4215C23.1836 20.5435 23.0273 20.6166 22.8611 20.6253C22.6948 20.6341 22.5317 20.5778 22.4062 20.4683C22.2877 20.3531 22.217 20.1973 22.2083 20.0322C22.1996 19.8671 22.2535 19.7048 22.3594 19.5777C22.7711 19.1196 23.2747 18.7532 23.8373 18.5023C24.3999 18.2515 25.009 18.1219 25.625 18.1219C26.241 18.1219 26.8501 18.2515 27.4127 18.5023C27.9753 18.7532 28.4789 19.1196 28.8906 19.5777ZM16.7031 20.4215C16.8265 20.5482 16.995 20.6212 17.1719 20.6246C17.3268 20.6252 17.4766 20.5697 17.5938 20.4683C17.7123 20.3531 17.783 20.1973 17.7917 20.0322C17.8004 19.8671 17.7465 19.7048 17.6406 19.5777C17.2289 19.1196 16.7253 18.7532 16.1627 18.5023C15.6001 18.2515 14.991 18.1219 14.375 18.1219C13.759 18.1219 13.1499 18.2515 12.5873 18.5023C12.0247 18.7532 11.5211 19.1196 11.1094 19.5777C11.0035 19.7048 10.9496 19.8671 10.9583 20.0322C10.967 20.1973 11.0377 20.3531 11.1562 20.4683C11.2817 20.5778 11.4448 20.6341 11.6111 20.6253C11.7773 20.6166 11.9336 20.5435 12.0469 20.4215C12.3386 20.0919 12.697 19.828 13.0984 19.6473C13.4997 19.4666 13.9348 19.3732 14.375 19.3732C14.8152 19.3732 15.2503 19.4666 15.6516 19.6473C16.053 19.828 16.4114 20.0919 16.7031 20.4215ZM23.7969 26.984C22.6703 27.7278 21.35 28.1244 20 28.1244C18.65 28.1244 17.3297 27.7278 16.2031 26.984C16.1357 26.9324 16.0584 26.895 15.976 26.8743C15.8936 26.8536 15.8079 26.8498 15.724 26.8634C15.6402 26.8769 15.5599 26.9073 15.4882 26.9529C15.4165 26.9984 15.3549 27.0581 15.307 27.1283C15.2592 27.1985 15.2261 27.2777 15.2099 27.3611C15.1937 27.4445 15.1947 27.5303 15.2127 27.6133C15.2308 27.6963 15.2656 27.7747 15.315 27.8438C15.3644 27.9129 15.4273 27.9713 15.5 28.0152C16.8332 28.902 18.3988 29.3752 20 29.3752C21.6012 29.3752 23.1668 28.902 24.5 28.0152C24.6356 27.9231 24.7297 27.7814 24.7618 27.6207C24.794 27.4599 24.7617 27.293 24.6719 27.1558C24.6277 27.0848 24.5694 27.0236 24.5006 26.9761C24.4317 26.9285 24.3538 26.8957 24.2718 26.8795C24.1897 26.8634 24.1052 26.8644 24.0235 26.8823C23.9418 26.9003 23.8646 26.9349 23.7969 26.984ZM34.375 7.54646V16.2496C34.375 21.7183 32.9062 26.859 30.2344 30.7496C27.5625 34.6402 23.8906 36.8746 20 36.8746C16.1094 36.8746 12.4844 34.7027 9.76562 30.7496C7.04688 26.7965 5.625 21.7183 5.625 16.2496V7.54646C5.62857 7.24276 5.70406 6.94423 5.8453 6.67535C5.98653 6.40646 6.18948 6.17488 6.4375 5.99958C6.6895 5.82999 6.97837 5.72308 7.28006 5.68775C7.58175 5.65241 7.88751 5.68969 8.17188 5.79646C10.4219 6.67146 14.9219 8.12458 20 8.12458C25.0781 8.12458 29.5781 6.67146 31.8281 5.79646C32.1125 5.68969 32.4183 5.65241 32.7199 5.68775C33.0216 5.72308 33.3105 5.82999 33.5625 5.99958C33.8105 6.17488 34.0135 6.40646 34.1547 6.67535C34.2959 6.94423 34.3714 7.24276 34.375 7.54646ZM33.125 7.54646C33.1276 7.44482 33.1048 7.34415 33.0585 7.2536C33.0123 7.16306 32.9441 7.08552 32.8603 7.02805C32.7764 6.97059 32.6795 6.93502 32.5784 6.92459C32.4772 6.91416 32.3751 6.9292 32.2812 6.96833C29.9531 7.85896 25.2812 9.37458 20 9.37458C14.7188 9.37458 10.0469 7.85896 7.71875 6.96833C7.65031 6.93639 7.57552 6.92036 7.5 6.92146C7.37287 6.92684 7.2492 6.96448 7.14063 7.03083C7.05798 7.08891 6.99064 7.16616 6.94438 7.25597C6.89812 7.34577 6.87431 7.44544 6.875 7.54646V16.2496C6.875 26.9371 12.7656 35.6246 20 35.6246C27.2344 35.6246 33.125 26.9371 33.125 16.2496V7.54646Z" fill="#363636"/>
+                        </svg>
+                      </i>
+                      <div class="s-text-desc-18 s-text-center">
+                        <p>
+                          Наша мета – дарувати щастя кожній дівчині
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+          </div>
+        </div>
+      </section>
+      <!-- /#advances.advances -->
+      <section class="slider-offices slider-offices-1 mt-12">
+        <div class="container-xxl">
+          <div class="row offset-lg-1">
+            <div class="col-lg-11 col-12">
+              <div class="slider-offices-header">
+                <div class="s-controls-slider">
+                  <div class="s-navigation-slider">
+                    <button type="button" class="swiper-button-prev">
+                     
+                    </button>
+                    <button type="button" class="swiper-button-next">
+                
+                    </button>
+                  </div>
+                  <div class="s-pagination-slider swiper-pagination">
+    
+                  </div>
+                </div>
+              </div>
+              <div class="slider-offices__slider slider-1 swiper">
+                <div class="slider-offices__wrapper swiper-wrapper">
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#sliderOffices.slider-offices -->
+      <section class="variants mt-12" id="variants">
+        <div class="variants__content">
+          <div class="container-xxl">
+            <div class="variants__header d-flex justify-content-between align-content-center">
+              <span class="h2 mb-3 s-title-border">
+                Варіанти адрес
+              </span>
+              <div class="variants-navigation s-navigation-slider">
+                <button type="button" class="swiper-button-prev">
+                 
+                </button>
+                <button type="button" class="swiper-button-next">
+            
+                </button>
+              </div>
+            </div>
+            <div class="variants__list">
+              <div class="row g-2">
+                <div class="col-sm-4 col-6 mb-md-0 mb-3">
+                  <a href="#" class="variants__item item">
+                    <div class="item__body">
+                      <div class="item__image">
+                        <img src="images/variantsSlider/02.webp" width="152" height="152" alt="01">
+                      </div>
+                      <div class="item__info">
+                        <span class="h5">
+                          36 м2
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4 col-6 mb-md-0 mb-3">
+                  <a href="#" class="variants__item item">
+                    <div class="item__body">
+                      <div class="item__image">
+                        <img src="images/variantsSlider/02.webp" width="152" height="152" alt="01">
+                      </div>
+                      <div class="item__info">
+                        <span class="h5">
+                          36 м2
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4 col-6 mb-md-0 mb-3">
+                  <a href="#" class="variants__item item">
+                    <div class="item__body">
+                      <div class="item__image">
+                        <img src="images/variantsSlider/02.webp" width="152" height="152" alt="01">
+                      </div>
+                      <div class="item__info">
+                        <span class="h5">
+                          36 м2
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4 col-6 mb-md-0 mb-3">
+                  <a href="#" class="variants__item item">
+                    <div class="item__body">
+                      <div class="item__image">
+                        <img src="images/variantsSlider/02.webp" width="152" height="152" alt="01">
+                      </div>
+                      <div class="item__info">
+                        <span class="h5">
+                          36 м2
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4 col-6 mb-md-0 mb-3">
+                  <a href="#" class="variants__item item">
+                    <div class="item__body">
+                      <div class="item__image">
+                        <img src="images/variantsSlider/02.webp" width="152" height="152" alt="01">
+                      </div>
+                      <div class="item__info">
+                        <span class="h5">
+                          36 м2
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-4 col-6 mb-md-0 mb-3">
+                  <a href="#" class="variants__item item">
+                    <div class="item__body">
+                      <div class="item__image">
+                        <img src="images/variantsSlider/02.webp" width="152" height="152" alt="01">
+                      </div>
+                      <div class="item__info">
+                        <span class="h5">
+                          36 м2
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="row justify-content-center mt-md-3">
+                <a href="#" class="variants__more s-button s-button--m s-button-blue--border">Показати ще</a>
+              </div>
+            </div>
+          </div>
+          <div class="variants__slider swiper">
+            <div class="variants__wrapper swiper-wrapper">
+              <a href="#" class="variants__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/variantsSlider/01.webp" width="410" height="340" alt="01">
+                  </div>
+                  <div class="slide__info">
+                    <span class="h2">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <p>
+                        Центр, Новозаводський, Чернігів
+                      </p>
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="variants__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/variantsSlider/02.webp" width="410" height="340" alt="01">
+                  </div>
+                  <div class="slide__info">
+                    <span class="h2">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <p>
+                        Центр, Новозаводський, Чернігів
+                      </p>
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="variants__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/variantsSlider/01.webp" width="410" height="340" alt="01">
+                  </div>
+                  <div class="slide__info">
+                    <span class="h2">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <p>
+                        Центр, Новозаводський, Чернігів
+                      </p>
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="variants__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/variantsSlider/02.webp" width="410" height="340" alt="01">
+                  </div>
+                  <div class="slide__info">
+                    <span class="h2">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <p>
+                        Центр, Новозаводський, Чернігів
+                      </p>
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="variants__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/variantsSlider/01.webp" width="410" height="340" alt="01">
+                  </div>
+                  <div class="slide__info">
+                    <span class="h2">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <p>
+                        Центр, Новозаводський, Чернігів
+                      </p>
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="variants__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/variantsSlider/02.webp" width="410" height="340" alt="01">
+                  </div>
+                  <div class="slide__info">
+                    <span class="h2">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <p>
+                        Центр, Новозаводський, Чернігів
+                      </p>
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- /#variants.variants -->
+      <section class="location-section mt-12" id="locationSection">
+        <div class="container-xxl">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <span class="h1 s-title-section s-text-grey">
+                Ми знаходимось
+              </span>
+              <ul class="s-text-desc-24 s-font-Montserrat">
+                <li>
+                  Центр, Новозаводський, Чернігів
+                </li>
+                <li>
+                  Центр, Новозаводський, Чернігів
+                </li>
+                <li>
+                  Центр, Новозаводський, Чернігів
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-7 col-12 location-section-map">
+              <img src="images/map.webp" class="img-flued" width="740" height="560" alt="01">
+            </div>
+          </div>
+          <div class="row align-items-center flex-md-row-reverse flex-column-reverse">
+            <div class="col-md-5 col-12">
+              <span class="h1 s-title-section s-text-grey">
+                Ми знаходимось
+              </span>
+              <ul class="s-text-desc-24 s-font-Montserrat">
+                <li>
+                  Центр, Новозаводський, Чернігів
+                </li>
+                <li>
+                  Центр, Новозаводський, Чернігів
+                </li>
+                <li>
+                  Центр, Новозаводський, Чернігів
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-7 col-12 mb-md-0 mb-3 location-section-map">
+              <img src="images/map.webp" class="img-flued" width="740" height="560" alt="01">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#locationSection.location-section -->
+      <section class="offices mt-12 s-section-bg-half" id="offices">
+        <div class="offices__content pt-5">
+          <div class="container-xxl">
+            <div class="offices__header mb-md-5 mb-3 d-flex justify-content-between align-content-center">
+              <span class="h2 s-title-border">
+                Варіанти офісів
+              </span>
+              <div class="offices-navigation s-navigation-slider">
+                <button type="button" class="swiper-button-prev">
+                 
+                </button>
+                <button type="button" class="swiper-button-next">
+            
+                </button>
+              </div>
+            </div>
+           
+          </div>
+          <div class="offices__slider swiper">
+            <div class="offices__wrapper swiper-wrapper">
+              <a href="#" class="offices__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/offices/01.webp" width="310" height="310" alt="Office 01">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="offices__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/offices/02.webp" width="310" height="310" alt="Office 02">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="offices__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/offices/03.webp" width="310" height="310" alt="Office 03">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="offices__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/offices/01.webp" width="310" height="310" alt="Office 01">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="offices__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/offices/02.webp" width="310" height="310" alt="Office 02">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="offices__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/offices/03.webp" width="310" height="310" alt="Office 03">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#offices.offices -->
+      <section class="address mt-12" id="address">
+        <div class="container-xxl">
+          <div class="row offset-lg-1">
+            <div class="col-lg-11 col-12">
+              <div class="address__header d-flex justify-content-between align-items-center gap-10">
+                <span class="h2">
+                  Варіанти адрес
+                </span>
+                <div class="address-navigation s-navigation-slider">
+                  <button type="button" class="swiper-button-prev">
+                   
+                  </button>
+                  <button type="button" class="swiper-button-next">
+              
+                  </button>
+                </div>
+              </div>
+              <div class="address__slider swiper">
+                <div class="address__wrapper swiper-wrapper">
+                  
+                  <div class="address__slide swiper-slide slide">
+              
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <div class="s-content-more s-text-desc-18 s-text-gray">
+                          <p>Таким чином, подальший розвиток різних форм діяльності є цікавим експериментом перевірки подальших напрямків розвитку. Повсякденна практика показує, що рамки та місце навчання кадрів вимагають від нас аналізу нових пропозицій. Також консультація з широким активом дозволяє виконувати важливі завдання з розробки нових пропозицій.</p>
+                          
+                          <div class="s-content-more-text collapse" id="addresSlide1">
+                            <p>Каждая женщина и девушка мечтает о нижнем белье, в котором она выглядит безупречно. Комфортное белье на каждый день или красивый комплект для особого случая Вы найдете в интернет-магазине Elitamoda.com.</p>
+                          </div>
+                          <button class="s-content-more-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#addresSlide1">
+                            <span>Читати усе</span> <span>Сховати</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <path d="M5 12H19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 5L19 12L12 19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/variants-adres/01.webp" width="568" height="696" alt="01">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="address__slide swiper-slide slide">
+                 
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <div class="s-content-more s-text-desc-18 s-text-gray">
+                          <p>Таким чином, подальший розвиток різних форм діяльності є цікавим експериментом перевірки подальших напрямків розвитку. Повсякденна практика показує, що рамки та місце навчання кадрів вимагають від нас аналізу нових пропозицій. Також консультація з широким активом дозволяє виконувати важливі завдання з розробки нових пропозицій.</p>
+                          
+                          <div class="s-content-more-text collapse" id="addresSlide2">
+                            <p>Каждая женщина и девушка мечтает о нижнем белье, в котором она выглядит безупречно. Комфортное белье на каждый день или красивый комплект для особого случая Вы найдете в интернет-магазине Elitamoda.com.</p>
+                          </div>
+                          <button class="s-content-more-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#addresSlide2">
+                            <span>Читати усе</span> <span>Сховати</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <path d="M5 12H19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 5L19 12L12 19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/variants-adres/01.webp" width="568" height="696" alt="01">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#address.address -->
+      <section class="contact mt-12" id="contact">
+        <div class="container-xxl">
+          <div class="row mb-5 offset-lg-1">
+            <div class="col-md-4">
+              <span class="h1">
+                Залишити повідомлення
+              </span>
+            </div>
+          </div>
+          <div class="row offset-lg-1">
+            <form action="#" class="contact__form s-form" method="POST">
+              <div class="row mb-lg-4">
+                <div class="col-md-6 mb-3 md-md-0">
+                  <div class="s-form-col">
+                    <input autocomplete="off" id="nameContact" type="text" name="nameContact" placeholder="" class="s-form-input">
+                    <label class="s-form-label" for="nameContact">Ім’я</label>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-3 md-md-0">
+                  <div class="s-form-col">
+                    <input autocomplete="off" id="mail" type="text" name="mail" placeholder="" class="s-form-input">
+                    <label class="s-form-label" for="mail">E-mail</label>
+                  </div>
+                  
+                </div>
+             
+              </div>
+              <div class="row mb-lg-5">
+                <div class="col-md-6 mb-3 md-md-0">
+                  <div class="s-form-col">
+                    <input autocomplete="off" id="phone" type="text" name="phone" placeholder="" class="s-form-input">
+                    <label class="s-form-label" for="phone">Телефон</label>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-3 md-md-0">
+                  <div class="s-form-col d-flex h-100 align-items-center">
+                    <div class="s-checkbox">
+                      <input id="c_1" class="s-checkbox__input" type="checkbox" value="1" name="form[]">
+                      <label for="c_1" class="s-checkbox__label">
+                        <span class="s-checkbox__text">
+                          Даю    <a href="#">згоду</a> на обробку своїх персональних данних
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                  
+                </div>
+             
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <button type="submit" class="s-button s-button--l s-button-blue">Отримати</button>
+                </div>
+              </div>
+            </form>
+          
+          </div>
+        </div>
+      </section>
+      <!-- /#contact.contact -->
+      <section class="accommodation mt-12 s-section-bg-half" id="accommodation">
+        <div class="accommodation__content pt-5">
+          <div class="container-xxl">
+            <div class="accommodation__header mb-md-5 mb-3 d-flex justify-content-between align-content-center">
+              <span class="h2">
+                Варіанти приміщень
+              </span>
+              <div class="accommodation-navigation s-navigation-slider">
+                <button type="button" class="swiper-button-prev">
+                 
+                </button>
+                <button type="button" class="swiper-button-next">
+            
+                </button>
+              </div>
+            </div>
+           
+          </div>
+          <div class="accommodation__slider swiper">
+            <div class="accommodation__wrapper swiper-wrapper">
+              <a href="#" class="accommodation__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/accommodation/01.webp" width="310" height="310" alt="Office 01">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="accommodation__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/accommodation/02.webp" width="310" height="310" alt="Office 02">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="accommodation__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/accommodation/03.webp" width="310" height="310" alt="Office 03">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="accommodation__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/accommodation/01.webp" width="310" height="310" alt="Office 01">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="accommodation__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/accommodation/02.webp" width="310" height="310" alt="Office 02">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="accommodation__slide swiper-slide slide">
+                <div class="slide__body">
+                  <div class="slide__image">
+                    <img src="images/accommodation/03.webp" width="310" height="310" alt="Office 03">
+                  </div>
+                  <div class="slide__info d-flex gap-10 flex-column">
+                    <span class="h3">
+                      36 м2
+                    </span>
+                    <div class="slide__desc s-text-desc-18">
+                      <div class="s-text-gray--3 mb-2">
+                        <p>
+                          Центр, Новозаводський, Чернігів
+                        </p>
+                      </div>
+                    
+                      <p>
+                        184 м2  /  3 поверх
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#accommodation.accommodation -->
+      <section class="seo mt-12" id="seo">
+        <div class="container-xxl">
+          <div class="row mb-4">
+            <div class="col-12">
+              <span class="h2">
+                Интернет-магазин бла-бла SEO Текст
+              </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="s-content-more s-text-desc-18 s-text-gray--3">
+              <p>Каждая женщина и девушка мечтает о нижнем белье, в котором она выглядит безупречно. Комфортное белье на каждый день или красивый комплект для особого случая Вы найдете в интернет-магазине Elitamoda.com..</p>
+              <div class="s-content-more-text collapse" id="hiddenContent">
+                <p>Каждая женщина и девушка мечтает о нижнем белье, в котором она выглядит безупречно. Комфортное белье на каждый день или красивый комплект для особого случая Вы найдете в интернет-магазине Elitamoda.com.</p>
+              </div>
+              <button class="s-content-more-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hiddenContent">
+                <span>Читати усе</span> <span>Сховати</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M5 12H19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- /#seo.seo -->
+      <section class="slider-offices slider-offices-2 mt-12">
+        <div class="container-xxl">
+          <div class="row offset-lg-1">
+            <div class="col-lg-11 col-12">
+              <div class="slider-offices-header">
+                <div class="s-controls-slider">
+                  <div class="s-navigation-slider">
+                    <button type="button" class="swiper-button-prev">
+                     
+                    </button>
+                    <button type="button" class="swiper-button-next">
+                
+                    </button>
+                  </div>
+                  <div class="s-pagination-slider swiper-pagination">
+    
+                  </div>
+                </div>
+              </div>
+              <div class="slider-offices__slider slider-2 swiper">
+                <div class="slider-offices__wrapper swiper-wrapper">
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-offices__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__info">
+                        <span class="h1">
+                          36 м2
+                        </span>
+                        <span class="s-text-gray--3 h5">
+                          Вул. І. Мазепи
+                        </span>
+                        <div class="s-text-desc-18">
+                            <p>
+                              Центр, Новозаводський, Чернігів
+                            </p>
+                            <p>
+                              184 м2  /   3 поверх
+                            </p>
+                            <ul>
+                              <li>
+                                В бізнес центрі
+                              </li>
+                              <li>
+                                1 приміщення
+                              </li>
+                              <li>
+                                2 поверх з 3
+                              </li>
+                              <li>
+                                Додатково плата по лічильникам і за опалення
+                              </li>
+                            </ul>
+                            <a href="#" class="s-button s-button--m s-button-blue">Написати нам</a>
+                        </div>
+                      </div>
+                      <div class="slide__image">
+                        <img src="images/01.webp" width="470" height="580" alt="1">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#sliderOffices.slider-offices -->
+      <section class="questions mt-12" id="questions">
+        <div class="container-xxl">
+          <div class="row mb-4">
+            <div class="col-12">
+              <span class="h1">
+                Питання та відповіді
+              </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="accordion" id="accordionPanelsQuestion">
+              <div class="accordion-item">
+                <span class="accordion-header" id="questionHeadingOne">
+                  <button class="accordion-button s-font-Montserrat s-font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne" aria-expanded="true" aria-controls="questionOne">
+                    Чи є гарантія на справжність товарів?
+                  </button>
+                </span>
+                <div id="questionOne" class="accordion-collapse collapse show" aria-labelledby="questionHeadingOne">
+                  <div class="accordion-body">
+                   <ul>
+                    <li>
+                      Адреса кур'єрська доставка в містах: Київ, Дніпро, Одеса, Харків, Кривий Ріг, Львів, Рівне, Черкаси, Чернігів, Миколаїв, Херсон, Запоріжжя, Вінниця, Маріуполь, Луцьк, Ужгород, Кропивницький здійснюється кур'єрською службою компанії «MODOZA». Вартість доставки – безкоштовно.
+                    </li>
+                    <li>
+                      * У разі доставки за даними містами на відділення кур'єрської служби «Нова Пошта» - вартість доставки згідно з тарифами кур'єрської служби.
+                    </li>
+                    <li>
+                      Доставка по території України (крім зазначених міст) здійснюється кур'єрською службою «Нова Пошта» (адресно, на відділення). Вартість доставки – безкоштовно.
+                    </li>
+                    <li>
+                      При сумі замовлення понад 75 тисяч гривень доставка здійснюється за передоплатою у розмірі 25% від загальної суми замовлення.
+                    </li>
+                    <li>
+                      Товари вартістю понад 50 000 грн доставляються виключно кур'єрською службою Modoza. У разі доставки до пункту самовивезення кур'єрської служби "Нова Пошта", кур'єром компанії "Нова Пошта" - відправка таких товарів здійснюється після 100% передоплати.
+                    </li>
+                   </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <span class="accordion-header" id="questionHeadingTwo">
+                  <button class="accordion-button collapsed s-font-Montserrat s-font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
+                    Як правильно вибрати відповідний розмір?
+                  </button>
+                </span>
+                <div id="questionTwo" class="accordion-collapse collapse" aria-labelledby="questionHeadingTwo">
+                  <div class="accordion-body">
+                    <ul>
+                     <li>
+                       Адреса кур'єрська доставка в містах: Київ, Дніпро, Одеса, Харків, Кривий Ріг, Львів, Рівне, Черкаси, Чернігів, Миколаїв, Херсон, Запоріжжя, Вінниця, Маріуполь, Луцьк, Ужгород, Кропивницький здійснюється кур'єрською службою компанії «MODOZA». Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       * У разі доставки за даними містами на відділення кур'єрської служби «Нова Пошта» - вартість доставки згідно з тарифами кур'єрської служби.
+                     </li>
+                     <li>
+                       Доставка по території України (крім зазначених міст) здійснюється кур'єрською службою «Нова Пошта» (адресно, на відділення). Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       При сумі замовлення понад 75 тисяч гривень доставка здійснюється за передоплатою у розмірі 25% від загальної суми замовлення.
+                     </li>
+                     <li>
+                       Товари вартістю понад 50 000 грн доставляються виключно кур'єрською службою Modoza. У разі доставки до пункту самовивезення кур'єрської служби "Нова Пошта", кур'єром компанії "Нова Пошта" - відправка таких товарів здійснюється після 100% передоплати.
+                     </li>
+                    </ul>
+                   </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <span class="accordion-header" id="questionHeadingThree">
+                  <button class="accordion-button collapsed s-font-Montserrat s-font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
+                    Як працює послуга «примірка»?
+                  </button>
+                </span>
+                <div id="questionThree" class="accordion-collapse collapse" aria-labelledby="questionHeadingThree">
+                  <div class="accordion-body">
+                    <ul>
+                     <li>
+                       Адреса кур'єрська доставка в містах: Київ, Дніпро, Одеса, Харків, Кривий Ріг, Львів, Рівне, Черкаси, Чернігів, Миколаїв, Херсон, Запоріжжя, Вінниця, Маріуполь, Луцьк, Ужгород, Кропивницький здійснюється кур'єрською службою компанії «MODOZA». Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       * У разі доставки за даними містами на відділення кур'єрської служби «Нова Пошта» - вартість доставки згідно з тарифами кур'єрської служби.
+                     </li>
+                     <li>
+                       Доставка по території України (крім зазначених міст) здійснюється кур'єрською службою «Нова Пошта» (адресно, на відділення). Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       При сумі замовлення понад 75 тисяч гривень доставка здійснюється за передоплатою у розмірі 25% від загальної суми замовлення.
+                     </li>
+                     <li>
+                       Товари вартістю понад 50 000 грн доставляються виключно кур'єрською службою Modoza. У разі доставки до пункту самовивезення кур'єрської служби "Нова Пошта", кур'єром компанії "Нова Пошта" - відправка таких товарів здійснюється після 100% передоплати.
+                     </li>
+                    </ul>
+                   </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <span class="accordion-header" id="questionHeadingFour">
+                  <button class="accordion-button collapsed s-font-Montserrat s-font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour" aria-expanded="false" aria-controls="questionFour">
+                    Хто сплачує вартість пересилання повернення товару?
+                  </button>
+                </span>
+                <div id="questionFour" class="accordion-collapse collapse" aria-labelledby="questionHeadingFour">
+                  <div class="accordion-body">
+                    <ul>
+                     <li>
+                       Адреса кур'єрська доставка в містах: Київ, Дніпро, Одеса, Харків, Кривий Ріг, Львів, Рівне, Черкаси, Чернігів, Миколаїв, Херсон, Запоріжжя, Вінниця, Маріуполь, Луцьк, Ужгород, Кропивницький здійснюється кур'єрською службою компанії «MODOZA». Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       * У разі доставки за даними містами на відділення кур'єрської служби «Нова Пошта» - вартість доставки згідно з тарифами кур'єрської служби.
+                     </li>
+                     <li>
+                       Доставка по території України (крім зазначених міст) здійснюється кур'єрською службою «Нова Пошта» (адресно, на відділення). Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       При сумі замовлення понад 75 тисяч гривень доставка здійснюється за передоплатою у розмірі 25% від загальної суми замовлення.
+                     </li>
+                     <li>
+                       Товари вартістю понад 50 000 грн доставляються виключно кур'єрською службою Modoza. У разі доставки до пункту самовивезення кур'єрської служби "Нова Пошта", кур'єром компанії "Нова Пошта" - відправка таких товарів здійснюється після 100% передоплати.
+                     </li>
+                    </ul>
+                   </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <span class="accordion-header" id="questionHeadingFive">
+                  <button class="accordion-button collapsed s-font-Montserrat s-font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#questionFive" aria-expanded="false" aria-controls="questionFive">
+                    Правила догляду
+                  </button>
+                </span>
+                <div id="questionFive" class="accordion-collapse collapse" aria-labelledby="questionHeadingFive">
+                  <div class="accordion-body">
+                    <ul>
+                     <li>
+                       Адреса кур'єрська доставка в містах: Київ, Дніпро, Одеса, Харків, Кривий Ріг, Львів, Рівне, Черкаси, Чернігів, Миколаїв, Херсон, Запоріжжя, Вінниця, Маріуполь, Луцьк, Ужгород, Кропивницький здійснюється кур'єрською службою компанії «MODOZA». Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       * У разі доставки за даними містами на відділення кур'єрської служби «Нова Пошта» - вартість доставки згідно з тарифами кур'єрської служби.
+                     </li>
+                     <li>
+                       Доставка по території України (крім зазначених міст) здійснюється кур'єрською службою «Нова Пошта» (адресно, на відділення). Вартість доставки – безкоштовно.
+                     </li>
+                     <li>
+                       При сумі замовлення понад 75 тисяч гривень доставка здійснюється за передоплатою у розмірі 25% від загальної суми замовлення.
+                     </li>
+                     <li>
+                       Товари вартістю понад 50 000 грн доставляються виключно кур'єрською службою Modoza. У разі доставки до пункту самовивезення кур'єрської служби "Нова Пошта", кур'єром компанії "Нова Пошта" - відправка таких товарів здійснюється після 100% передоплати.
+                     </li>
+                    </ul>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#questions.questions -->
+      <section class="reviews mt-12 s-section-bg-full" id="reviews">
+        <div class="container-xxl">
+          <div class="row mb-md-5 mb-4">
+            <div class="col-6">
+              <span class="h1">
+                Відгуки
+              </span>
+            </div>
+            <div class="col-6 ">
+              <div class="s-controls-slider">
+                <div class="s-navigation-slider">
+                  <button type="button" class="swiper-button-prev">
+                   
+                  </button>
+                  <button type="button" class="swiper-button-next">
+              
+                  </button>
+                </div>
+                <div class="s-pagination-slider swiper-pagination">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 reviews-row">
+              <div class="reviews__slider swiper">
+                <div class="reviews__wrapper swiper-wrapper">
+                  <div class="reviews__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__header">
+                        <svg class="star-source" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <defs>
+                            <g id="icon-star">
+                              <path d="M20.388,10.918L32,12.118l-8.735,7.749L25.914,31.4l-9.893-6.088L6.127,31.4l2.695-11.533L0,12.118
+                                       l11.547-1.2L16.026,0.6L20.388,10.918z" />
+                            </g>
+                        
+                            <linearGradient>
+                              <stop stop-opacity="1" offset="50%" stop-color="#48440E"></stop>
+                              <stop stop-opacity="0" offset="50%"></stop>
+                            </linearGradient>    
+                          </defs>
+                        </svg>
+                        
+                        <div class="s-rating-box">  
+                          <svg class="star" viewBox="0 0 180 32">
+                            <use xlink:href="#icon-star" x="0" y="0" />
+                            <use xlink:href="#icon-star" x="36" y="0"  />      
+                            <use xlink:href="#icon-star" x="72" y="0" /> 
+                            <use xlink:href="#icon-star" x="108" y="0" class="star--half" />       
+                            <use xlink:href="#icon-star" x="144" y="0" class="star--empty" />  
+                          </svg>  
+                        </div>  
+                        
+                        <div class="date">
+                          18 января 2019
+                        </div>
+                        
+                      </div>
+                      <div class="slide__content">
+                        <div class="s-text-desc-18 mb-3">
+                          <p>
+                            Иннокентий Длиннофамильный
+                          </p>
+                        </div>
+                        <div class="s-content-more s-text-desc-18 s-text-gray--3">
+                          <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          <div class="s-content-more-text collapse" id="reviewsHiddenContent">
+                            <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          </div>
+                          <button class="s-content-more-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reviewsHiddenContent">
+                            <span>Читати усе</span> <span>Сховати</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <path d="M5 12H19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 5L19 12L12 19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__header">
+                        <svg class="star-source" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <defs>
+                            <g id="icon-star">
+                              <path d="M20.388,10.918L32,12.118l-8.735,7.749L25.914,31.4l-9.893-6.088L6.127,31.4l2.695-11.533L0,12.118
+                                       l11.547-1.2L16.026,0.6L20.388,10.918z" />
+                            </g>
+                        
+                            <linearGradient>
+                              <stop stop-opacity="1" offset="50%" stop-color="#48440E"></stop>
+                              <stop stop-opacity="0" offset="50%"></stop>
+                            </linearGradient>    
+                          </defs>
+                        </svg>
+                        
+                        <div class="s-rating-box">  
+                          <svg class="star" viewBox="0 0 180 32">
+                            <use xlink:href="#icon-star" x="0" y="0" />
+                            <use xlink:href="#icon-star" x="36" y="0"  />      
+                            <use xlink:href="#icon-star" x="72" y="0" /> 
+                            <use xlink:href="#icon-star" x="108" y="0" class="star--half" />       
+                            <use xlink:href="#icon-star" x="144" y="0" class="star--empty" />  
+                          </svg>  
+                        </div>  
+                        
+                        <div class="date">
+                          18 января 2019
+                        </div>
+                        
+                      </div>
+                      <div class="slide__content">
+                        <div class="s-text-desc-18 mb-3">
+                          <p>
+                            Иннокентий Длиннофамильный
+                          </p>
+                        </div>
+                        <div class="s-content-more s-text-desc-18 s-text-gray--3">
+                          <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          <div class="s-content-more-text collapse" id="reviewsHiddenContent2">
+                            <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          </div>
+                          <button class="s-content-more-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reviewsHiddenContent2">
+                            <span>Читати усе</span> <span>Сховати</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <path d="M5 12H19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 5L19 12L12 19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__header">
+                        <svg class="star-source" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <defs>
+                            <g id="icon-star">
+                              <path d="M20.388,10.918L32,12.118l-8.735,7.749L25.914,31.4l-9.893-6.088L6.127,31.4l2.695-11.533L0,12.118
+                                       l11.547-1.2L16.026,0.6L20.388,10.918z" />
+                            </g>
+                        
+                            <linearGradient>
+                              <stop stop-opacity="1" offset="50%" stop-color="#48440E"></stop>
+                              <stop stop-opacity="0" offset="50%"></stop>
+                            </linearGradient>    
+                          </defs>
+                        </svg>
+                        
+                        <div class="s-rating-box">  
+                          <svg class="star" viewBox="0 0 180 32">
+                            <use xlink:href="#icon-star" x="0" y="0" />
+                            <use xlink:href="#icon-star" x="36" y="0"  />      
+                            <use xlink:href="#icon-star" x="72" y="0" /> 
+                            <use xlink:href="#icon-star" x="108" y="0" class="star--half" />       
+                            <use xlink:href="#icon-star" x="144" y="0" class="star--empty" />  
+                          </svg>  
+                        </div>  
+                        
+                        <div class="date">
+                          18 января 2019
+                        </div>
+                        
+                      </div>
+                      <div class="slide__content">
+                        <div class="s-text-desc-18 mb-3">
+                          <p>
+                            Иннокентий Длиннофамильный
+                          </p>
+                        </div>
+                        <div class="s-content-more s-text-desc-18 s-text-gray--3">
+                          <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          <div class="s-content-more-text collapse" id="reviewsHiddenContent3">
+                            <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          </div>
+                          <button class="s-content-more-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reviewsHiddenContent3">
+                            <span>Читати усе</span> <span>Сховати</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <path d="M5 12H19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 5L19 12L12 19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__slide swiper-slide slide">
+                    <div class="slide__body">
+                      <div class="slide__header">
+                        <svg class="star-source" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <defs>
+                            <g id="icon-star">
+                              <path d="M20.388,10.918L32,12.118l-8.735,7.749L25.914,31.4l-9.893-6.088L6.127,31.4l2.695-11.533L0,12.118
+                                       l11.547-1.2L16.026,0.6L20.388,10.918z" />
+                            </g>
+                        
+                            <linearGradient id="halfGradient">
+                              <stop stop-opacity="1" offset="50%" stop-color="#48440E"></stop>
+                              <stop stop-opacity="0" offset="50%"></stop>
+                            </linearGradient>    
+                          </defs>
+                        </svg>
+                        
+                        <div class="s-rating-box">  
+                          <svg class="star" viewBox="0 0 180 32">
+                            <use xlink:href="#icon-star" x="0" y="0" />
+                            <use xlink:href="#icon-star" x="36" y="0"  />      
+                            <use xlink:href="#icon-star" x="72" y="0" /> 
+                            <use xlink:href="#icon-star" x="108" y="0" class="star--half" />       
+                            <use xlink:href="#icon-star" x="144" y="0" class="star--empty" />  
+                          </svg>  
+                        </div>  
+                        
+                        <div class="date">
+                          18 января 2019
+                        </div>
+                        
+                      </div>
+                      <div class="slide__content">
+                        <div class="s-text-desc-18 mb-3">
+                          <p>
+                            Иннокентий Длиннофамильный
+                          </p>
+                        </div>
+                        <div class="s-content-more s-text-desc-18 s-text-gray--3">
+                          <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          <div class="s-content-more-text collapse" id="reviewsHiddenContent4">
+                            <p>Получила это изделие в цвете «Лила». Качество - невероятная. Рекомендую однозначно.А еще хочу выразить огромную благодарность менеджеру Яне за профессионализм.</p>
+                          </div>
+                          <button class="s-content-more-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reviewsHiddenContent4">
+                            <span>Читати усе</span> <span>Сховати</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <path d="M5 12H19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 5L19 12L12 19" stroke="#118FD6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#reviews.reviews -->
+      <section class="consultation" id="consultation">
+        <div class="container-xxl">
+          <div class="row">
+            <div class="col-md-8 col-12 mb-4 mb-md-0">
+              <span class="h3 mb-2">
+                Бажаєте отримати детальну інформацію?
+              </span>
+              <div class="s-text-desc-18 s-text-gray--3">
+                <p>
+                  Каждая женщина и девушка мечтает о нижнем белье, в котором она выглядит безупречно.
+
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-12 d-flex align-items-center justify-md-content-end justify-content-center">
+              <a href="#" class="s-button s-button--xl s-button-blue"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                <path d="M4.125 12.0157C4.26175 12.0157 4.3929 11.9614 4.4896 11.8647C4.5863 11.768 4.64062 11.6368 4.64062 11.5001V3.93756C4.64062 3.89197 4.65873 3.84826 4.69097 3.81602C4.7232 3.78379 4.76692 3.76568 4.8125 3.76568H12.5469V8.06256C12.5469 8.19931 12.6012 8.33046 12.6979 8.42716C12.7946 8.52386 12.9257 8.57818 13.0625 8.57818H17.3594V11.5001C17.3594 11.6368 17.4137 11.768 17.5104 11.8647C17.6071 11.9614 17.7382 12.0157 17.875 12.0157C18.0118 12.0157 18.1429 11.9614 18.2396 11.8647C18.3363 11.768 18.3906 11.6368 18.3906 11.5001V8.06256C18.3908 7.99376 18.3772 7.92562 18.3506 7.86215C18.3241 7.79869 18.2851 7.74119 18.2359 7.69303L13.4234 2.88912C13.3775 2.83941 13.3217 2.79994 13.2595 2.77329C13.1973 2.74663 13.1302 2.73339 13.0625 2.73443H4.8125C4.49341 2.73443 4.18739 2.86119 3.96176 3.08682C3.73613 3.31245 3.60938 3.61847 3.60938 3.93756V11.5001C3.60938 11.6368 3.6637 11.768 3.7604 11.8647C3.8571 11.9614 3.98825 12.0157 4.125 12.0157ZM13.5781 4.49615L16.6289 7.54693H13.5781V4.49615ZM5.5 14.4219H4.125C3.98825 14.4219 3.8571 14.4763 3.7604 14.573C3.6637 14.6697 3.60938 14.8008 3.60938 14.9376V19.0626C3.60938 19.1993 3.6637 19.3305 3.7604 19.4272C3.8571 19.5239 3.98825 19.5782 4.125 19.5782C4.26175 19.5782 4.3929 19.5239 4.4896 19.4272C4.5863 19.3305 4.64062 19.1993 4.64062 19.0626V18.2032H5.5C6.00142 18.2032 6.48231 18.004 6.83687 17.6494C7.19143 17.2949 7.39062 16.814 7.39062 16.3126C7.39062 15.8111 7.19143 15.3302 6.83687 14.9757C6.48231 14.6211 6.00142 14.4219 5.5 14.4219ZM5.5 17.1719H4.64062V15.4532H5.5C5.72792 15.4532 5.94651 15.5437 6.10767 15.7049C6.26883 15.8661 6.35938 16.0846 6.35938 16.3126C6.35938 16.5405 6.26883 16.7591 6.10767 16.9202C5.94651 17.0814 5.72792 17.1719 5.5 17.1719ZM16.6719 15.4532V16.8282H18.2188C18.3555 16.8282 18.4867 16.8825 18.5834 16.9792C18.6801 17.0759 18.7344 17.2071 18.7344 17.3438C18.7344 17.4806 18.6801 17.6117 18.5834 17.7084C18.4867 17.8051 18.3555 17.8594 18.2188 17.8594H16.6719V19.0626C16.6719 19.1993 16.6176 19.3305 16.5209 19.4272C16.4242 19.5239 16.293 19.5782 16.1562 19.5782C16.0195 19.5782 15.8883 19.5239 15.7916 19.4272C15.6949 19.3305 15.6406 19.1993 15.6406 19.0626V14.9376C15.6406 14.8008 15.6949 14.6697 15.7916 14.573C15.8883 14.4763 16.0195 14.4219 16.1562 14.4219H18.5625C18.6993 14.4219 18.8304 14.4763 18.9271 14.573C19.0238 14.6697 19.0781 14.8008 19.0781 14.9376C19.0781 15.0743 19.0238 15.2055 18.9271 15.3022C18.8304 15.3989 18.6993 15.4532 18.5625 15.4532H16.6719ZM11 14.4219H9.79688C9.66012 14.4219 9.52897 14.4763 9.43227 14.573C9.33558 14.6697 9.28125 14.8008 9.28125 14.9376V19.0626C9.28125 19.1993 9.33558 19.3305 9.43227 19.4272C9.52897 19.5239 9.66012 19.5782 9.79688 19.5782H11C11.6838 19.5782 12.3395 19.3066 12.823 18.8231C13.3065 18.3396 13.5781 17.6838 13.5781 17.0001C13.5781 16.3163 13.3065 15.6605 12.823 15.177C12.3395 14.6936 11.6838 14.4219 11 14.4219ZM11 18.5469H10.3125V15.4532H11C11.4103 15.4532 11.8037 15.6162 12.0938 15.9063C12.3839 16.1963 12.5469 16.5898 12.5469 17.0001C12.5469 17.4103 12.3839 17.8038 12.0938 18.0939C11.8037 18.384 11.4103 18.5469 11 18.5469Z" fill="white"/>
+              </svg> Отримати каталог</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#consultation.consultation -->
+    </main>
+    <footer class="footer">
+      <div class="container-xxl">
+        <div class="footer__content">
+          <div class="footer__content">
+            <div class="row row-cols-3 align-items-center justify-content-between flex-lg-nowrap flex-lg-row gap-3 flex-md-column">
+              <div class="col-lg-auto col-12">
+                <div class="footer__phone s-phone-block">
+                  <i class="footer__phone-icon s-phone-block__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path d="M30.8322 23.3802V27.8802C30.8339 28.298 30.7483 28.7115 30.5809 29.0942C30.4136 29.477 30.1681 29.8206 29.8603 30.103C29.5525 30.3854 29.189 30.6004 28.7933 30.7343C28.3976 30.8681 27.9782 30.9178 27.5622 30.8802C22.9464 30.3787 18.5127 28.8014 14.6172 26.2752C10.9929 23.9722 7.92018 20.8995 5.61718 17.2752C3.08214 13.362 1.50454 8.9067 1.01218 4.27021C0.974691 3.85541 1.02399 3.43735 1.15693 3.04264C1.28986 2.64794 1.50353 2.28524 1.78432 1.97764C2.06512 1.67004 2.40688 1.42427 2.78786 1.25599C3.16884 1.08771 3.58069 1.0006 3.99718 1.00021H8.49718C9.22513 0.993042 9.93086 1.25082 10.4828 1.72551C11.0348 2.20019 11.3953 2.85938 11.4972 3.58021C11.6871 5.02031 12.0394 6.4343 12.5472 7.79521C12.749 8.33209 12.7927 8.91558 12.673 9.47653C12.5534 10.0375 12.2755 10.5524 11.8722 10.9602L9.96718 12.8652C12.1025 16.6205 15.2119 19.7299 18.9672 21.8652L20.8722 19.9602C21.28 19.5569 21.7949 19.279 22.3559 19.1593C22.9168 19.0397 23.5003 19.0834 24.0372 19.2852C25.3981 19.793 26.8121 20.1453 28.2522 20.3352C28.9808 20.438 29.6463 20.805 30.122 21.3664C30.5977 21.9279 30.8504 22.6446 30.8322 23.3802Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </i>
+                  <div class="footer__phone-desc s-phone-block__desc">
+                    <a href="tel:+380971882555" class="s-phone-tel s-text-desc-24">(093) 123-45-67</a>
+                    <button class="s-phone-book s-text-desc-16">Замовити дзвінок</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-auto col-12">
+                <div class="footer__copyright s-text-desc-16 s-text-gray--2">
+                  © 2014-2022
+                </div>
+              </div>
+              <div class="col-lg-auto col-12">
+                <div class="footer__menu menu">
+                  <nav class="menu__body">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          Варіанти офісів
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Характеристики
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Про нас
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Контакти
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <div class="footer__actions d-flex justify-md-content-end justify-content-center align-items-center flex-wrap">
+                  <a href="#" class="footer__order s-button s-button--m s-button-white" data-bs-toggle="modal" data-bs-target="#orderPopup">Напишіть нам</a>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal modal-lg fade  " id="orderPopup" tabindex="-1" aria-labelledby="orderPopupLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="modal-title h1" id="orderPopupLabel">Замовити дзвінок</span>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M24 8L8 24" stroke="#A9A9A9" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 8L24 24" stroke="#A9A9A9" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#" class="s-form" method="POST">
+              <div class="s-form-col">
+                <input autocomplete="off" id="popupName" type="text" name="popupName" placeholder="" class="s-form-input">
+                <label class="s-form-label" for="popupName">Ім’я</label>
+              </div>
+              <div class="s-form-col">
+                <input autocomplete="off" id="popupPhone" type="text" name="popupPhone" placeholder="" class="s-form-input">
+                <label class="s-form-label" for="popupPhone">Телефон</label>
+              </div>
+              <div class="s-form-col">
+                <button type="submit" class="s-button s-button--m s-button-blue w-100">Відправити</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/libs/bootstrap.bundle.min.js"></script>
+  <script src="js/libs/swiper.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
